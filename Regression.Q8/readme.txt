@@ -20,9 +20,9 @@ email: milch@eimb.ru
    Q8_DATA_MODEL
    Q8_DATA_MODEL_FOR_CPU
    and set lr_start to 0.01 in Learn_Q8.py.
-   If you don't have GPU with 24GB RAM (or more) you should disable test dataset loading
+   If you don't have GPU with 16GB RAM (or more) you should disable test dataset loading
+   by setting test_enabled = 0 in the string 28 of the script.
    
-
 4. Run learning neural network:
    python3 Learn_Q8.py
    At any moment you can stop learning process, tune up lr_start and re-run learning
