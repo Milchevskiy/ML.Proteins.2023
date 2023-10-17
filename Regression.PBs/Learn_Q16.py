@@ -36,8 +36,8 @@ def accuracy(yt, y_pred):
   # granular but slow approach
   n_correct = 0; n_wrong = 0
   for i in range(len(yt)):
-   t_index=torch.argmax(yt[i])
-   pred_index=torch.argmax(y_pred[i])
+   t_index=torch.argmin(yt[i])
+   pred_index=torch.argmin(y_pred[i])
 
    if t_index == pred_index:
     n_correct += 1
