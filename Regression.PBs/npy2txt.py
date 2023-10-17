@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # This script will decode all .NPY files in the directory
-mypath = "/home/milch/predict.Q8/"
+mypath = "/home/milch/predict.Q16/"
 # to the tabbed text format
 
 import struct
