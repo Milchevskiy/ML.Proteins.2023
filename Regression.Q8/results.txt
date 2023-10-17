@@ -1,0 +1,6 @@
+kk = 61000, loss = 0.035527, step = 0.0004000
+q8 for CB513  0.793542166407977
+
+Accuracy above 80% is achieved, final step = 0.0004000
+Final q8 for learning sample 0.802728
+Final q8 for CB513 0.793542
