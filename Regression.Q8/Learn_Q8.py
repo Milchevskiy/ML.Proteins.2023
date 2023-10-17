@@ -128,7 +128,7 @@ print(yt)
 print(Xt.shape)
 print(yt.shape)
 
-if test_enabled == 1
+if test_enabled == 1:
     X = numpy.load("test_Q8X.npy")
     y = numpy.load("test_Q8Y.npy")
 
@@ -206,7 +206,7 @@ y_pred_test_1 = model(Xtest_1)
 q16=accuracy(ytest_1, y_pred_test_1)
 printf("Final q8 for CB513 %lf\n", q16)
 
-if test_enabled == 1
+if test_enabled == 1:
     y_pred_test = model(Xtest)
     q16t=accuracy(ytest, y_pred_test)
     printf("Final q8 for test sample %lf\n",q16t)
