@@ -20,9 +20,9 @@ email: milch@eimb.ru
    2_MakeFrequencyDatabases
    3_MakeRegressStepwiseModel
    4_PredictorListToNN  
-   from bin folder to the main directory of the project (to the same 
+   from bin directory to the main directory of the project (to the same 
    directory where _config file is located). 
-   If you want to recompile all binaries, read manual in the file
+   If you want to recompile binaries, read manual in the file
    Generate.Databases.and.Predictors.pdf carefully.
 
 5. Get PDB databank by command
